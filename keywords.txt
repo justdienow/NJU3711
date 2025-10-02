@@ -1,0 +1,104 @@
+#######################################
+# Syntax Coloring Map For NJU3711
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+NJU3711	KEYWORD1
+NJU3711_7Segment	KEYWORD1
+NJU3711_7Segment_Multi	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+update	KEYWORD2
+isBusy	KEYWORD2
+write	KEYWORD2
+writeImmediate	KEYWORD2
+setBit	KEYWORD2
+clearBit	KEYWORD2
+toggleBit	KEYWORD2
+writeBit	KEYWORD2
+shift	KEYWORD2
+latch	KEYWORD2
+clear	KEYWORD2
+getCurrentData	KEYWORD2
+startTestPattern	KEYWORD2
+stopTestPattern	KEYWORD2
+setStepDelay	KEYWORD2
+getQueueSize	KEYWORD2
+clearQueue	KEYWORD2
+
+# 7-Segment methods
+displayDigit	KEYWORD2
+displayHex	KEYWORD2
+displayChar	KEYWORD2
+displayRaw	KEYWORD2
+setSegment	KEYWORD2
+clearSegment	KEYWORD2
+toggleSegment	KEYWORD2
+setDecimalPoint	KEYWORD2
+toggleDecimalPoint	KEYWORD2
+getDecimalPointState	KEYWORD2
+setDisplayMode	KEYWORD2
+getDisplayMode	KEYWORD2
+displayBlank	KEYWORD2
+displayAll	KEYWORD2
+displayMinus	KEYWORD2
+displayUnderscore	KEYWORD2
+displayDegree	KEYWORD2
+displayError	KEYWORD2
+displayOff	KEYWORD2
+displayOn	KEYWORD2
+startAnimation	KEYWORD2
+stopAnimation	KEYWORD2
+isAnimating	KEYWORD2
+
+# Multi-digit methods
+displayNumber	KEYWORD2
+setDigit	KEYWORD2
+setDigitChar	KEYWORD2
+setDigitRaw	KEYWORD2
+enableDigit	KEYWORD2
+disableDigit	KEYWORD2
+enableAllDigits	KEYWORD2
+disableAllDigits	KEYWORD2
+setLeadingZeros	KEYWORD2
+setBlankOnZero	KEYWORD2
+clearDisplay	KEYWORD2
+setMultiplexDelay	KEYWORD2
+enableMultiplex	KEYWORD2
+disableMultiplex	KEYWORD2
+isMultiplexing	KEYWORD2
+displayDashes	KEYWORD2
+displayTemperature	KEYWORD2
+clearAllDecimalPoints	KEYWORD2
+getCurrentValue	KEYWORD2
+getNumDigits	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ACTIVE_LOW	LITERAL1
+ACTIVE_HIGH	LITERAL1
+COMMON_CATHODE	LITERAL1
+COMMON_ANODE	LITERAL1
+SEG_A	LITERAL1
+SEG_B	LITERAL1
+SEG_C	LITERAL1
+SEG_D	LITERAL1
+SEG_E	LITERAL1
+SEG_F	LITERAL1
+SEG_G	LITERAL1
+SEG_DP	LITERAL1
+ANIM_ROTATE_CW	LITERAL1
+ANIM_ROTATE_CCW	LITERAL1
+ANIM_BLINK	LITERAL1
+ANIM_FADE	LITERAL1
+ANIM_CHASE	LITERAL1
+ANIM_LOADING	LITERAL1
