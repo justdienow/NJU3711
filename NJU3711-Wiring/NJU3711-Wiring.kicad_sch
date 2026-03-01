@@ -1,0 +1,103 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "95897667-5f76-46a7-bb1a-d6e9b13a91a7")
+	(paper "A4")
+	(title_block
+		(title "NJU3711-Wiring")
+		(date "2026-03-01")
+		(rev "v1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 77.47 67.31)
+		(size 63.5 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "089b07b6-f184-40e0-ba1c-c6b0016ae81c")
+		(property "Sheetname" "NJU3711-Wiring-Single-Display"
+			(at 77.47 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NJU3711-Wiring-Single-Display.kicad_sch"
+			(at 77.47 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NJU3711-Wiring"
+				(path "/95897667-5f76-46a7-bb1a-d6e9b13a91a7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 67.31)
+		(size 63.5 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ec7f655-5087-44de-ad4d-ce78a984b6e0")
+		(property "Sheetname" "NJU3711-Wiring-Double-Display"
+			(at 154.94 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NJU3711-Wiring-Double-Display.kicad_sch"
+			(at 154.94 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NJU3711-Wiring"
+				(path "/95897667-5f76-46a7-bb1a-d6e9b13a91a7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
